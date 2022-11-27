@@ -1,0 +1,44 @@
+.dashboard__main{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 10px;
+}
+.card__header{
+    color: rgba(13,27,62,.7);
+    border-bottom: 1px solid rgba(26,54,126,.125);
+    margin: 2px 0 10px 0;
+}
+.oderreport__body{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oderreport__itembody{
+    margin: 0 10px;
+}
+.orderreport_itemsubheading{
+    color: #7d8288;
+    font-size: 14px;
+}
+.orderreport_itemnumber{
+    color: black;
+    font-size: 40px;
+    margin: 8px 0 16px 0;
+}
+.order__details__filter{
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0 16px 0;
+}
+.order__details__filter__items{
+    margin: 0 10px;
+}
+.details__filterLabel{
+    margin-right: 5px;
+    display: inline-block;
+}

@@ -1,0 +1,22 @@
+.orderdetails__item{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    border-bottom: 1px solid gray;
+    margin: 10px 0 0 0;
+}
+.orderdetails__itemDetails__heading{
+    font-weight: bold;
+}
+.orderdetails__itemDetails__subheading{
+    display: flex;
+    align-items: center;
+    color: rgb(98, 96, 96);
+}
+.orderdetails__itemDetails__misc{
+    display: flex;
+    align-items: center;
+    color: rgb(145, 142, 142);
+    font-weight: lighter;
+    font-size: 14px;
+}

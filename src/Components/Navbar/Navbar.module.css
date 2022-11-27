@@ -1,0 +1,30 @@
+.nav__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    color: #f0f0f0;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%), 0 0.9375rem 1.40625rem rgb(4 9 20 / 3%), 0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 0 0.125rem 0.1875rem 
+  }
+  .nav_main_logo{
+    object-fit: contain;
+    width:40px;
+    margin-left: 10px;
+  }
+  .nav__main p{
+    cursor: pointer;
+    color: gray;
+  }
+  .nav_more{
+    display: flex;
+    column-gap: 3px;
+    margin-right: 10px;
+  }
+  .nav__item__username{
+    display: flex;
+    align-items: center;
+  }
+  .nav_main_logo{
+    cursor: pointer;
+  }
